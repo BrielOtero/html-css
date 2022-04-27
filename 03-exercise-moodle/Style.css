@@ -1,0 +1,122 @@
+*{ 
+    padding: 0;
+    height: auto;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+#login{
+    float: right;
+    color: white;
+    margin-top: 70px;
+    margin-right: 100px;
+    font-size: 15px;
+}
+#cabecera{
+    background:linear-gradient(#2E3273,#898bb6);
+    height: 200px;
+}
+ul,ol{
+    list-style: none;
+    
+}
+.nav{
+    height: 30px;
+    width: 100%;
+    background-color:#888 ;
+    margin: 0 auto ;
+    
+}
+.nav>li{
+    float:right;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 150px;
+}
+.nav li a{
+    background-color: #888;
+    float: left;
+    height: 30px;
+    width: 50px;
+    color:#ffff;
+    text-decoration: none;
+    padding:0px 20px;
+    display:block;
+}
+.nav li a:hover{
+    background-color: #434343;
+}
+.nav li ul{
+    display:none;
+    position:absolute;
+    min-width: 140px;
+    margin-top: 30px;
+}
+.nav li:hover>ul{
+    display:block;
+}
+
+.nav li ul li{
+    position:relative;
+}
+.nav li ul li ul{
+    right:-140px;
+    top:0px;
+}
+body{
+    height: 200px;
+}
+#direccion{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+ 
+#contenido{
+    height: auto; 
+}
+#formulario{
+    background: #F5F5F5;
+    height: 100%;
+    padding-top: 5px;
+    padding-left: 300px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-bottom: 153px;
+}
+
+#left {
+    width: 600px;
+    text-align: center;
+    padding-right: 100px;
+}
+#button{
+    border-radius: 2px;
+    color: white;
+    background: black;
+    width: 65px;
+    height: 38px;
+}
+#right {
+    vertical-align: top;
+    text-align: left;
+    width: 500px;
+    padding-left: 150px;
+    margin-left: 150px;
+}
+#h3registro{
+    text-align: right;
+    padding-right: 40px;
+}
+#pie{
+    background:linear-gradient(#898bb6,#2E3273);
+    height: 150 px;
+    text-align: center;
+    padding-top: 3px;
+    color: white;
+}

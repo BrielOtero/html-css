@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <meta http-equiv="refresh" content="300"> 
+    <style>
+        td{padding: 50px;
+
+        }
+    </style>   
+</head>
+<body>
+    <h1 style="color:red;">Tipos de Input</h1>
+        <form method="post" action="mailto:tucorreo@email.com" enctype="text/plain">
+            <table id="formulario"></table>
+            
+                <tr>
+                    <td styler="padding:30px;"> 
+                        Usuario: <input type="text" size="20" maxlength="40" name="nombre" placeholder="Nombre de usuario"/> <br/>
+                    </td>    
+                </tr>
+                <br/>
+                <tr>
+                    <td>
+                    Contraseña: <input type="password" size="20" maxlength="10" name="contraseña"/><br/>
+                </td>
+                <br/>    
+                </tr>
+                <tr>    
+                </tr>
+                <tr>
+                    Mantener conectado<input type="checkbox" name="conectado" checked><br/>
+                </tr>
+                <br/>
+                <tr>
+                    <label for="preferencias">Preferencias: </label> 
+                    Mañana<input name="preferencias" type=radio value="mañana">
+                    Tarde<input name="preferencias" type=radio value="tarde">
+                    Noche<input name="preferencias" type=radio value="noche"><br>
+                </tr>
+                <br/>
+                <tr>
+                    <label for="reservar"> Reservar: </label> 
+                    Hotel<input name="reservarHotel" type="radio" value="hotel">
+                    Coche<input name="reservarCoche" type="radio" value="coche"><br>
+                </tr>
+                <br/>
+                <select name="Ciudad" size="1">
+                    <option>A Coruña</option>
+                    <option>Pontevedra</option>
+                    <option>Lugo</option>
+                    <option>Ourense</option>
+                </select></br>
+                <br/>
+                <tr>
+                    <label for="fichero">Subir Fotografía</label>
+                    <input type="file" name="fichero" accept="aplication/x-zip-compressed"><br/>
+                </tr>
+                <br/>
+                <tr>
+                    <input type="button" value="Enviar"/>
+                    <input type="button" value="Borrar"/>
+                    <input type="button" value="Salir"/><br/>
+                </tr>
+            </table>
+                </form>
+             
+
+</body>
+</html>

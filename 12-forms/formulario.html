@@ -1,0 +1,31 @@
+
+<form method="post" action="mailto:tucorreo@email.com" enctype="text/plain">
+    Nombre: <input type="text" size="20" maxlength="40" name="nombre" placeholder="Introduce un nombre"/> <br/>
+    Password: <input type="password" size="20" maxlength="10" name="password"/><br/>
+    opcion 1<input name="respuesta" type=radio value="mal"><br>
+    opcion 2<input name="respuesta" type=radio value="bien"><br>
+    opcion 3<input name="respuesta" type=radio value="mal"><br>
+    Acepto los términos y condiciones<input type="checkbox" name="acepto" checked><br/>
+    <input type="file" name="fichero" accept="aplication/x-zip-compressed"><br/>
+    <input name="descuento" value="15%" size="5" readonly><br/>
+    <input type="button" value="salir" onclick="window.close();"><br/>
+    <button type="submit"> <img src="favicon.ico"> </button><br/>
+    <select name="Navegador" size="1">
+        <option>Chrome
+        <option>Explorer
+        <option>Opera
+        <option>Mozilla
+        <option>Otros
+       </select></br>
+    <select id="ropa" name="ropa" multiple="multiple" size="8">
+        <optgroup label="Camisas">
+        <option value="ML" selected="selected"> Manga larga</option>
+        <option value="MC"> Manga corta</option>
+        </optgroup>
+        <optgroup label="Pantalones">
+        <option value="PP">Pantalón pitillo</option>
+        <optgroup label="Ropa Interior">
+        <option value="PP">Calcetines</option>
+        </optgroup></select><br/>  
+    <input type="button" value="enviar"/><br/>
+</form>

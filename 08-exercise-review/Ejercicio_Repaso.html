@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5000">
+    <meta name="description" content="Web de Feliz Navidad">
+    <meta name="keywords" content="feliz, navidad, incripción, solicitar, ofertas">
+    <link rel="shortcut icon" href="abeto.png">
+    <link rel="stylesheet" type="text/css" href="Estilo_Ejercicio_Repaso.css" />
+    <title>Feliz Navidad</title>
+</head>
+
+<body>
+    <header>
+        <h1>Feliz Navidad</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="http://www.colegiovivas.com/">Comercio</a></li>
+            <li><a href="http://www.colegiovivas.com/">Promociones</a></li>
+            <li><a href="http://www.colegiovivas.com/">Fecha de apertura</a></li>
+            <li><a href="http://www.colegiovivas.com/">Contacto</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <form id="formulario" method="post" action="davidmalito:tucorreo@email.com" enctype="text/plain">
+                <table id="tabla">
+                    <th colspan="2">
+                        Formulario de incripción
+                    </th>
+                    <tr>
+                        <td>
+                            <p>Nombre</p>
+                            <input type="text" name="Nombre" id="nombre">
+                        </td>
+                        <td>
+                            <p>Apellidos</p>
+                            <input type="text" name="Nombre" id="apellidos">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Dirección</p>
+                            <input type="text" name="Dirección" id="direccion">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Correo</p>
+                            <input type="email" name="Correo" id="correo" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Teléfono</p>
+                            <input type="text" name="Teléfono" id="telefono" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Sexo</p>
+                            <input type="radio" name="sexo" id="Hombre">Hombre
+                            <input type="radio" name="sexo" id="Mujer">Mujer
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="tdboton" colspan="2" rowspan="2">
+                            <input id="boton" type="button" value="Enviar">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </article>
+    </section>
+    <aside>
+        <div id=divaside>
+            <img id="imgnavidad" src="foto_navidad.png" alt="feliznavidad">
+            <p>Accede a todas nuetras ofertas y promociones registrandote de forma gratuita en nuestra página
+                web.
+                Recibirás
+                al instante todas las novedades de nuestro catálogo de productos.</p>
+            <fieldset>
+                <form id="formulario" method="post" action="mailto:tucorreo@email.com" enctype="text/plain"></form>
+                <legend>Newsletter</legend>
+                <select name="" id="">
+                    <option value="Diariamente">Diariamente</option>
+                    <option value="Semanal">Semanal</option>
+                    <option value="Mensual">Mensual</option>
+                </select>
+                <p id="checkbox"><input type="checkbox" name="Acepto" id="Acepto" checked>Acepto recibir Newsletter</p>
+                <p id="botonsolicitar"><input type="button" value="solicitar" checked></p>
+            </form>
+            </fieldset>
+        </div>
+    </aside>
+    <footer>
+        <p><a href="http:/www.colegiovivas.com">Copyright ColegioVivas</a></p>
+    </footer>
+</body>
+
+</html>

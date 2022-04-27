@@ -1,0 +1,70 @@
+html,body {
+	height:100%;
+}
+header {
+		
+	display:block;
+	background:#286af0;
+	padding:10px 0px;
+}
+header img,h1{
+    margin-left: 10px;
+}
+h1{
+    text-shadow: 3px 3px white;
+}
+section {
+	width: 80.90%;
+	background: #ccc;
+	float: left;
+	overflow: auto;
+	padding-bottom: 60px;
+	padding-top:30px;
+        height: auto;
+        
+}
+section p{
+    padding: 10px;
+}
+
+aside {
+	float: right;
+        overflow: auto;
+        max-height: 500px;
+	/*border: 1px solid red;*/
+        border-right: 1px solid black;
+	width: 19%;
+        text-align: center;
+	/*Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden*/
+	/*visibility: hidden;*/
+}
+aside p{
+    padding:10px;
+}
+/*video{
+    width: content-box;
+}
+audio{
+    width: content-box;
+}*/
+footer {
+	position: relative;
+	margin-top: -50px;
+	height: 40px; 
+	padding:5px 0px;
+	clear: both;
+	background: #286af0;
+	text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color:black;
+}
+footer a:hover{
+    color:white;
+}
+figure {
+	display: table;
+        margin: 0 auto;
+        text-align: center;
+}

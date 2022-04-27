@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="300">    
+    <meta name="description" content="Página de navidad">
+    <meta name="keywords" content="navidad, feliz, ofertas, solicitar, formulario">
+    <link rel="stylesheet" type="text/css" href="Estilos_ejercicio_1.css">
+    <link rel="shortcut icon" href="abeto.png" type="image/x-icon">
+    <title>Navidad</title>
+</head>
+
+<body>
+    <header>
+        <h1>Feliz Navidad</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://www.colegiovivas.com/">Comercios</a></li>
+            <li><a href="https://www.colegiovivas.com/">Promociones</a></li>
+            <li><a href="https://www.colegiovivas.com/">Fechas de apertura</a></li>
+            <li><a href="https://www.colegiovivas.com/">Contacto</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <form action="mailto:bd.isabel.rosado@gmail.com" method="post">
+                <table>
+                    <tr>
+                        <th colspan="2">
+                            Formulario de incripción
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Nombre</p>
+                            <input type="text" name="Nombre" id="Nombre" placeholder="Introduce un Nombre">
+                        </td>
+                        <td>
+                            <p>Apellidos</p>
+                            <input type="text" name="Apellidos" id="Apellidos" placeholder="Introduce tus Apellidos">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Dirección</p>
+                            <input type="text" name="Dirección" id="Direccion" placeholder="Introduce una Direccion">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Correo</p>
+                            <input type="email" name="Correo" id="Correo" required placeholder="Introduce un Correo">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Teléfono</p>
+                            <input type="number" name="Teléfono" id="Telefono" required placeholder="Introduce un Telefono">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Sexo</p>
+                            <input type="radio" name="Sexo" id="Hombre" value="mucho">Hombre
+                            <input type="radio" name="Sexo" id="Mujer" value="pocp">Mujer
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="botonenviar" colspan="2">
+                            <button type="submit" value="Enviar"></button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </article>
+
+    </section>
+    <aside>
+        <div>
+            <img src="foto_navidad.png" alt="navidad">
+            <p>Accede a todas nuestras ofertas y promociones registrandote de forma gratuita en nuestra página web.
+                Recibirás al instante todas las novedades de nuestro catálogo de productos.</p>
+            <form action="mailto:bd.isabel.rosado@gmail.com" method="post">
+            <fieldset>
+                <legend>Newsletter</legend>
+                <table>
+                <tr>
+                    <td>
+                        <select name="Recibir" id="Recibir">
+                            <option value="Diariamente">Diariamente</option>
+                            <option value="Semanalmente">Semanalmente</option>
+                            <option value="Mensualmente">Mensualmente</option>
+
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><input type="checkbox" name="Check" id="Check" checked> Acepto recibir Newsletter</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="botonsolicitar">
+                        <p><input type="submit" value="Solicitar"></p>
+                    </td>
+                </tr>
+                </table>
+            </fieldset>
+            </form>
+        </div>
+    </aside>
+    <footer>
+        <p>Copyright Colegio Vivas</p>
+    </footer>
+
+</body>
+
+</html>

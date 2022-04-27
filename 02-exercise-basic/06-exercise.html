@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>     
+</head>
+<body> 
+    <form method="post" action="mailto:tucorreo@email.com" enctype="text/plain">
+        <h1>Modas Paquita</h1>
+        <fieldset><legend>Formulario de pedido</legend>
+            <table id="formulario"> 
+                    <h4>Paso1.datos personales</h4> 
+                    <tr>
+                        <td>
+
+                    
+                        
+                            <tr>
+                               
+                                <td >
+                                    <fieldset><legend>Datos del cliente</legend>
+                                    Correo electrónico <input type="text" size="20" maxlength="40" name="correo"/> <br/>
+                                    Contraseña: <input type="password" size="20" maxlength="10" name="contraseña"/><br/>
+                                    <label for="contraseña">(Longitud mínima 6 caracteres)</label>
+                                    </fieldset> 
+                                </td>   
+                                <td> 
+                                        <fieldset ><legend>Tipo de cliente:</legend> 
+                                            Particular<input name="tipo" type="radio" value="hotel"><br>
+                                            Asociación<input name="tipo" type="radio" value="coche"><br>
+                                            Empresa<input name="tipo" type="radio" value="coche"><br>
+                                        </fieldset>
+                                </td>
+                                 
+                            </tr>                                
+                         
+                    </td>
+                </tr>
+                            <tr>
+                                <td>
+                                    <fieldset><legend>Datos del producto</legend>
+                                        <br>
+                                        <label for="ropa">Producto</label>
+                                        <br>
+                                        <br>
+                                        <select id="ropa" name="ropa" multiple="multiple" size="8">
+                                            <optgroup label="Camisas">
+                                            <option value="ML" selected="selected"> Manga larga</option>
+                                            <option value="MC"> Manga corta</option>
+                                            </optgroup>
+                                            <optgroup label="Pantalones">
+                                            <option value="PP">Pantalón pitillo</option>
+                                            <option value="PP">Pantalón campana</option>
+                                            <option value="PP">Pantalón corto</option>
+                                            </optgroup>
+                                        </select><br/>
+                                    </fieldset> 
+                                    <fieldset><legend>Datos de envio</legend>
+                                        Dirección <input type="text" size="20" maxlength="40" name="dirección"/><br/>
+                                        Ciudad <input type="text" size="20" maxlength="10" name="ciudad"/><br/>
+                                        Código Postal <input type="text" size="20" maxlength="10" name="postal"/><br/>
+                                        <input type="button" value="Enviar pedido"/>
+                                    </fieldset> 
+                                </td>
+                                <td>
+                                    <fieldset><legend>Información de interés</legend>
+                                        <h4>Comentarios</h4>
+                                        <textarea rows="6" cols="60">Escriba aquí su comentario</textarea><br/>
+                                        Acepto recibir información<input type="checkbox" name="Acepto" checked>
+                                    </fieldset> 
+                                    <br>
+                                    <br>
+                                    <fieldset><legend>Datos Bancarios</legend>
+                                        Nombre de entidad <input type="text" size="20" maxlength="40" name="entidad"/><br/>
+                                        Nº de cuenta <input type="text" size="20" maxlength="10" name="cuenta"/><br/>
+                                        <input type="button" value="Borrar formulario"/>
+                                    </fieldset>     
+                                </td>
+                            </tr>                                             
+            </table>           
+        </fieldset>
+
+    </form>
+             
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+*{
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+}
+nav{
+    background-color: #faf0e6;
+}
+form h1{
+   text-align: center;
+   margin: 10px 0 10px;
+}
+form{
+    background-color: #faf0e6;
+    border-style:solid ;
+    border-color: black ;
+    display: table;
+    width: 99%;
+    height: 80%;
+}
+form p{
+    display: table-row;
+}
+form label{
+    display: table-cell;
+    width: 150px;
+}
+form input{
+    display: table-cell; 
+}
+table{
+    width: 100%;
+}
+table td{ 
+    vertical-align: top;
+}
+#aceptoid{
+    width: 500px;
+    position: absolute;
+
+}
+#top{
+    height: 300px;
+}
+#bottom{
+    height: 300px;
+}
+.titulo{
+margin: 5px 0 10px;
+display: block;
+}
+#tdboton{
+    height: 50px;
+}
+#tdboton p{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+table button{
+   padding: 2px 10% 2px 10%;
+   
+}
+

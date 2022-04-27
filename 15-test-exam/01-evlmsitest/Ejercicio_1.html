@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="formulario, mejorar, atención, confiar, contacto">
+    <meta name="description" content="Web de formulario">
+    <meta http-equiv="refresh" content="240">
+    <link rel="shortcut icon" href="imag/coche.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Style.css">
+    <title>Examen 1ª Evaluación: Gabriel Otero</title>
+</head>
+<body>
+    <form action="mailto:isabel@gmail.com" method="post">
+        <table>
+            <tr>
+                <td colspan="3">
+                    <h1>Por favor, dedíquenos unos minutos para mejorar</h1>
+                </td>
+            </tr>
+            <tr id="top">
+                <td>
+                    <p class="titulo"><a>La atención recibida ha sido:</a></p>
+                    <p><input type="radio" name="att" id="Muy Buena" value="mb">Muy Buena</p>
+                    <p><input type="radio" name="att" id="Buena" value="b">Buena</p>
+                    <p><input type="radio" name="att" id="Mala" value="m">Mala</p>
+                    <p><input type="radio" name="att" id="Muy Mala" value="mm">Muy Mala</p>
+                </td>
+                <td>
+                    <p class="titulo"><a>¿Volvería a confiar en nosotros?</a></p>
+                    <p><input type="radio" name="conf" id="Si" value="si">Si</p>
+                    <p><input type="radio" name="conf" id="No" value="no">No</p>
+                </td>
+                <td>
+                    <p class="titulo"><a>¿Podría indicarnos la razón?</a> </p>
+                    <textarea name="text" id="textarea" cols="60" rows="4" required placeholder="Por favor escriba la razón" ></textarea>
+                </td>
+            </tr>
+            <tr id="bottom">
+                <td colspan="2" id="abajoizquierda">
+                    <p class="titulo"><a>Si desea que contactemos con usted rellene los datos a continuación:</a></p>
+                    <p>
+                        <label>Tratamiento</label>
+                        <select name="tratamiento" id="tratamiento">
+                            <option value="señor">Señor</option>
+                            <option value="señora">Señora</option>
+                            <option value="señorita">Señorita</option>
+                        </select> 
+                    </p>
+                    <p>
+                       <label>Nombre</label>
+                       <input type="text" name="nombre" id="nombre" height="20" maxlength="40">
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="correo" id="correo" height="20" maxlength="40">
+                    </p>
+                    <p>
+                        <label>Teléfono</label>
+                        <input type="text" name="numero" id="numero"  height="20" maxlength="9" placeholder="Hola">
+                    </p>
+                    <p>
+                        <input type="checkbox" name="Acepto" id="acepto" checked><a id="aceptoid">Acepto el tratamiento de mis datos personales</a>
+                    </p>
+                </td>
+                <td>
+                    <img src="imag/imagen.png" alt="">
+                </td>
+            </tr>
+            <tr id="trboton">
+                <td id="tdboton" colspan="3">
+                    <p><button type="submit">Enviar</button></p>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
+<form action="malitodavid" method="post"></form>
+
+
+
